@@ -82,6 +82,40 @@ En la siguiente figura, se muestran las predicciones de las distintas arquitectu
 
 ### Desafío 4:
 
+En este desafío, se lleva a cabo la implementación de un bot de preguntas y respuestas (QA). Se utiliza datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés. Se puede descargar de http://convai.io/data/.
+
+Prepocesamiento de datos:
+1. Se quitaron los apostrofes con una función propia.
+2. Se limitaron las sentencias a un largo de 10 palabras.
+3. Se tokenizó las sentencias.
+4. Se agregó padding para tener sentencias de la misma longitud.
+
+Se utilizaron los embeddings de FastText para transformar los tokens de entrada en vectores. Especificamente los embeddings crawl-300d-2M.vec.
+
+El primer modelo entrenado se baso en un encoder-decoder, con una capa de embedding y LSTM cada uno.
+
+Los resultados del entrenamiento de este se pueden ver en la siguiente figura:
+
+![image](https://github.com/user-attachments/assets/c62995ab-2b26-4212-b32d-fb5efb8bc599)
+
+En las siguientes imagenes se pueden ver preguntas y respuestas usando este modelo:
+
+![image](https://github.com/user-attachments/assets/b617ac31-65f0-4647-961a-b93007d48814)
+![image](https://github.com/user-attachments/assets/e0b5962d-ba99-482b-9c5b-39aaa94e231a)
+
+El segundo modelo utilizado fue similar al anterior pero con un stack de LSTMs, 3 capas para el encoder y 3 para el decoder, los resultados del entrenamiento se ven en:
+![image](https://github.com/user-attachments/assets/4f65b331-52ea-40e5-aaaf-15c046f4bf15)
+
+En las siguientes imagenes se pueden ver preguntas y respuestas usando este modelo:
+
+
+
+
+
+
+
+
+
 
 ## Muchas gracias!
 Sientete libre de contactarte por mail a francoa23@gmail.com por cualquier duda.
