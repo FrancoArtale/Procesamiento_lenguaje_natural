@@ -7,8 +7,8 @@ Especialización en IA - UBA (Universidad Nacional de Buenos Aires) - Projectos 
 En el primer desafío, se abordaron los fundamentos de la vectorización de texto, utilizando posteriormente un modelo de clasificación como Naïve Bayes para encontrar similitudes entre textos. Para ello, se empleó el conjunto de datos _20 Newsgroups_ de scikit-learn.
 
 Para la vectorización se siguieron los siguientes pasos:
-1. Se instancio un vectorizador.
-2. Se entreno el vectorizador.
+1. Se instanció un vectorizador.
+2. Se entrenó el vectorizador.
 
 Para valorar la similitud entre texto se uso la similitud del coseno.
 
