@@ -58,25 +58,25 @@ El dataset (corpus) utilizado en este caso fue el libro Viaje al centro de la Ti
 
 Preprocesamiento de datos:
 1. Tokenización del libro.
-2. Separamos las sentencias en un larog de 100 caracteres o palabras según el modelo.
+2. División de las sentencias en segmentos de 100 caracteres o palabras, según el modelo.
 3. Separación en entrenamiento y validación.
 
-Para el entrenamiento se utilizó la metrica de perplejidad, las arquitecturas utilizadas fueron RNN, LSTM Y GRU, todos entrenados durante 20 epocas.
+Para el entrenamiento, se utilizó la métrica de perplejidad. Las arquitecturas utilizadas fueron RNN, LSTM y GRU, todas entrenadas durante 20 épocas.
 
-En la siguiente figura se puede ver el rendimiento de las distintas arquitecturas en el caso de tokenización por caracteres:
+En la siguiente figura, se muestra el rendimiento de las distintas arquitecturas en el caso de tokenización por caracteres:
 
 ![image](https://github.com/user-attachments/assets/1a90ba5e-6eab-4418-95dc-ba02cc20ba57)
 
-En la siguiente figura se puede ver el rendimiento de las distintas arquitecturas en el caso de tokenización por palabras:
+En la siguiente figura, se muestra el rendimiento de las distintas arquitecturas en el caso de tokenización por palabras:
 
 ![image](https://github.com/user-attachments/assets/c1c120da-4961-4b7e-9531-48f06f8a3236)
 
-En la siguiente figura se puede ver las predicciones de las distintas arquitecturas en el caso de tokenización por caracteres:
+En la siguiente figura se puede ver las predicciones de las distintas arquitecturas en el caso de tokenización por caracteres usando Beam Search estocástico:
 
 ![image](https://github.com/user-attachments/assets/dfc5c4dc-2485-4292-a3fa-113424b11e98)
 
 
-En la siguiente figura se puede ver las predicciones de las distintas arquitecturas en el caso de tokenización por palabras:
+En la siguiente figura, se muestran las predicciones de las distintas arquitecturas en el caso de tokenización por palabras utilizando Beam Search estocástico.
 
 ![image](https://github.com/user-attachments/assets/43aefdf7-8628-427c-92ec-a88364aa1bae)
 
