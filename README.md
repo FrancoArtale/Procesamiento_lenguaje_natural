@@ -18,6 +18,22 @@ Por ultimo se invirtio la matriz documento-término para estudiar similitudes en
 
 ![Predicciones de palabras](desafio1_similitud_palabras.png)
 
+### Desafío 2:
+
+A partir de un dataset (corpus) se crearon vectores de palabras (embeddings) usando Gensim. Se graficaron los vectores y se observaron las similitudes en el espacio de emebddings. Por ultimo se plantearon tests de analogías.
+
+El dataset utilizado fue la biblia del projecto Gutenberg.
+El dataset fue preprocesado antes de crear los vectores, el preprocesamiento se enumera de la siguiente forma:
+1. Lematización.
+2. Se quitaron los signos de puntuaciones.
+3. Se filtraron las _stropwords_.
+Para generar los vectores se uso un modelo Word2Vec.
+Luego se entreno el modelo generador de vectores durante 100 epocas.
+
+En la siguiente figura se pueden ver resultados similares usando la similitud coseno de la palabra _god_:
+![image](https://github.com/user-attachments/assets/1dbfa956-efd8-409d-bd85-27ddeae0a70c)
+
+
 ## Muchas gracias!
 Sientete libre de contactarte por mail a francoa23@gmail.com por cualquier duda.
 Disfruta 😄!!
