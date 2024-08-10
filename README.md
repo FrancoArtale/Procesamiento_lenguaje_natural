@@ -16,7 +16,7 @@ Luego se optimizaron estos modelo para lograr el maximo valor de la metrica F1-s
 
 Por ultimo se invirtio la matriz documento-término para estudiar similitudes entre palabras. En la siguiente figura se puede ver un ejemplo de predicciones de palabras similares:
 
-!(desafio1_similitud_palabras.png)
+![Predicciones de palabras](desafio1_similitud_palabras.png)
 
 ## Muchas gracias!
 Sientete libre de contactarte por mail a francoa23@gmail.com por cualquier duda.
