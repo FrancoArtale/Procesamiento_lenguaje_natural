@@ -55,6 +55,13 @@ Uno de los tests de analogías que se realizó fue: "orador" es a "Dios" como "s
 
 ![image](https://github.com/user-attachments/assets/f00edb48-5c59-4b07-b0bf-a5c62438300e)
 
+Enlaces de utilidad:
+- https://radimrehurek.com/gensim/
+- https://www.baeldung.com/cs/latent-vs-embedding-space
+- https://www.gutenberg.org/
+- https://www.datacamp.com/es/tutorial/stemming-lemmatization-python
+- https://blackbeast.pro/diccionario/stop-words/#:~:text=Las%20Stop%20Words%20o%20palabras,la%20palabra%20clave%20o%20keyword.
+
 ### Desafío 3:
 
 Se entrenaron modelos de lenguaje con tokenización por caracteres y por palabras. Estos modelos se utilizaron para la generación de secuencias. Para la generación, se emplearon tanto la predicción más probable como métodos como Beam Search y muestreo aleatorio para armar las secuencias.
