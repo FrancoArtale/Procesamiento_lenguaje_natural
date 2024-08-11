@@ -18,7 +18,7 @@ Por ultimo se invirtio la matriz documento-término para estudiar similitudes en
 
 ![Predicciones de palabras](desafio1_similitud_palabras.png)
 
-El codigo se encuentra en [Desafío 1](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_1.ipynb).
+El código se encuentra en [Desafío 1](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_1.ipynb).
 
 Enlaces de utilidad:
 - https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html
@@ -57,7 +57,7 @@ Uno de los tests de analogías que se realizó fue: "orador" es a "Dios" como "s
 
 ![image](https://github.com/user-attachments/assets/f00edb48-5c59-4b07-b0bf-a5c62438300e)
 
-El codigo se encuentra en [Desafío 2](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_2.ipynb).
+El código se encuentra en [Desafío 2](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_2.ipynb).
 
 Enlaces de utilidad:
 - https://radimrehurek.com/gensim/
@@ -96,7 +96,7 @@ En la siguiente figura, se muestran las predicciones de las distintas arquitectu
 
 ![image](https://github.com/user-attachments/assets/43aefdf7-8628-427c-92ec-a88364aa1bae)
 
-El codigo se encuentra en [Desafío 3](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio%203/desafio_3.ipynb).
+El código se encuentra en [Desafío 3](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio%203/desafio_3.ipynb).
 
 Enlaces de utilidad:
 - https://www.gutenberg.org/
@@ -150,7 +150,7 @@ En las siguientes imágenes, se pueden observar ejemplos de preguntas y respuest
 ![image](https://github.com/user-attachments/assets/953e1b17-d191-4c70-83ed-3e0ecbd53429)
 ![image](https://github.com/user-attachments/assets/9e90da13-4f91-4b41-b5a5-98df27837f7d)
 
-El codigo se encuentra en [Desafío 4](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_4/Desafio_4.ipynb).
+El código se encuentra en [Desafío 4](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_4/Desafio_4.ipynb).
 
 Enlaces de utilidad:
 - https://medium.com/@prashantmalge181/building-q-a-chat-bot-gemma-llm-with-hugging-face-233ddcc76fe8
