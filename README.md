@@ -92,6 +92,17 @@ En la siguiente figura, se muestran las predicciones de las distintas arquitectu
 
 ![image](https://github.com/user-attachments/assets/43aefdf7-8628-427c-92ec-a88364aa1bae)
 
+Enlaces de utilidad:
+- https://www.gutenberg.org/
+- https://charanhu.medium.com/unveiling-the-power-of-character-level-tokenization-in-natural-language-processing-b2adadbbc72c#:~:text=Character%2Dlevel%20tokenization%20operates%20by,text%20into%20its%20atomic%20components.
+- https://towardsdatascience.com/word-subword-and-character-based-tokenization-know-the-difference-ea0976b64e17
+- https://njoroge.tomorrow.co.ke/blog/ai/word_vs_character_level_tokenization
+- https://blog.dinobrain.ai/beam-search/#:~:text=El%20'beam%20search'%20es%20un,secuencias%20m%C3%A1s%20coherentes%20y%20precisas.
+- https://klu.ai/glossary/perplexity
+- https://keras.io/api/layers/recurrent_layers/
+- https://keras.io/api/layers/recurrent_layers/lstm/
+- https://keras.io/api/layers/recurrent_layers/gru/
+
 ### Desafío 4:
 
 En este desafío, se lleva a cabo la implementación de un bot de preguntas y respuestas (QA). Se utiliza datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés. Los datos se pueden descargar desde [challenge ConvAI2 ](http://convai.io/data/).
