@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/a9373138-cfcc-4a68-92e4-fdaf41706eb2)
+
 # Desafíos de procesamiento del lenguaje natural
 
 Especialización en IA - UBA (Universidad Nacional de Buenos Aires) - Projectos finales
