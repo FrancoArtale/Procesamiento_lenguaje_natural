@@ -82,39 +82,44 @@ En la siguiente figura, se muestran las predicciones de las distintas arquitectu
 
 ### Desafío 4:
 
-En este desafío, se lleva a cabo la implementación de un bot de preguntas y respuestas (QA). Se utiliza datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés. Se puede descargar de http://convai.io/data/.
+En este desafío, se lleva a cabo la implementación de un bot de preguntas y respuestas (QA). Se utiliza datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés. Los datos se pueden descargar desde [challenge ConvAI2 ](http://convai.io/data/).
 
 Prepocesamiento de datos:
-1. Se quitaron los apostrofes con una función propia.
-2. Se limitaron las sentencias a un largo de 10 palabras.
-3. Se tokenizó las sentencias.
-4. Se agregó padding para tener sentencias de la misma longitud.
+1. Se eliminaron los apóstrofes mediante una función personalizada.
+2. Las sentencias se limitaron a un máximo de 10 palabras.
+3. Se tokenizaron las sentencias.
+4. Se aplicó padding para uniformar la longitud de las sentencias.
 
-Se utilizaron los embeddings de FastText para transformar los tokens de entrada en vectores. Especificamente los embeddings crawl-300d-2M.vec.
+Se utilizaron los embeddings de FastText para transformar los tokens de entrada en vectores, específicamente los embeddings _crawl-300d-2M.vec_.
 
-El primer modelo entrenado se baso en un encoder-decoder, con una capa de embedding y LSTM cada uno.
+El primer modelo entrenado se basó en una arquitectura encoder-decoder, cada uno con una capa de embedding y una LSTM.
 
-Los resultados del entrenamiento de este se pueden ver en la siguiente figura:
+Los resultados del entrenamiento de este modelo se pueden observar en la siguiente figura:
 
 ![image](https://github.com/user-attachments/assets/c62995ab-2b26-4212-b32d-fb5efb8bc599)
 
-En las siguientes imagenes se pueden ver preguntas y respuestas usando este modelo:
+En las siguientes imágenes, se pueden observar ejemplos de preguntas y respuestas generadas usando este modelo:
 
 ![image](https://github.com/user-attachments/assets/b617ac31-65f0-4647-961a-b93007d48814)
 ![image](https://github.com/user-attachments/assets/e0b5962d-ba99-482b-9c5b-39aaa94e231a)
 
-El segundo modelo utilizado fue similar al anterior pero con un stack de LSTMs, 3 capas para el encoder y 3 para el decoder, los resultados del entrenamiento se ven en:
+El segundo modelo utilizado fue similar al anterior, pero con un stack de LSTMs: 3 capas para el encoder y 3 capas para el decoder, cada uno con sus respectivas capas de embeddings. Los resultados del entrenamiento se pueden ver en la siguiente figura:
+
 ![image](https://github.com/user-attachments/assets/4f65b331-52ea-40e5-aaaf-15c046f4bf15)
 
-En las siguientes imagenes se pueden ver preguntas y respuestas usando este modelo:
+En las siguientes imágenes, se pueden observar ejemplos de preguntas y respuestas generadas usando este modelo:
 
+![image](https://github.com/user-attachments/assets/afed733e-fa0a-40e6-84fa-965bc1d20d15)
+![image](https://github.com/user-attachments/assets/e0b5962d-ba99-482b-9c5b-39aaa94e231a)
 
+En el último modelo, se utilizó una capa LSTM para el encoder y otra para el decoder, con sus correspondientes capas de embeddings y una capa de attention. Los resultados del entrenamiento se pueden ver en la siguiente figura:
 
+![image](https://github.com/user-attachments/assets/28726f9c-234f-4426-9bb2-ffd493009dce)
 
+En las siguientes imágenes, se pueden observar ejemplos de preguntas y respuestas generadas usando este modelo:
 
-
-
-
+![image](https://github.com/user-attachments/assets/953e1b17-d191-4c70-83ed-3e0ecbd53429)
+![image](https://github.com/user-attachments/assets/9e90da13-4f91-4b41-b5a5-98df27837f7d)
 
 
 ## Muchas gracias!
