@@ -18,6 +18,11 @@ Por ultimo se invirtio la matriz documento-término para estudiar similitudes en
 
 ![Predicciones de palabras](desafio1_similitud_palabras.png)
 
+Enlaces de utilidad:
+- https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html
+- https://www.geeksforgeeks.org/cosine-similarity/
+- https://en.wikipedia.org/wiki/Document-term_matrix
+
 ### Desafío 2:
 
 A partir de un dataset (corpus), se crearon vectores de palabras (embeddings) utilizando la biblioteca Gensim. Los vectores fueron graficados para observar las similitudes en el espacio de embeddings. Finalmente, se plantearon pruebas de analogías.
