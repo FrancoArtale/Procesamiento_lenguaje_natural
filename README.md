@@ -144,6 +144,15 @@ En las siguientes imágenes, se pueden observar ejemplos de preguntas y respuest
 ![image](https://github.com/user-attachments/assets/953e1b17-d191-4c70-83ed-3e0ecbd53429)
 ![image](https://github.com/user-attachments/assets/9e90da13-4f91-4b41-b5a5-98df27837f7d)
 
+Enlaces de utilidad:
+- https://medium.com/@prashantmalge181/building-q-a-chat-bot-gemma-llm-with-hugging-face-233ddcc76fe8
+- https://www.linkedin.com/advice/0/what-best-nlp-models-question-answering-skills-machine-learning-rzbgf
+- https://medium.com/@mrmohit254/end-to-end-implementation-of-a-qa-bot-using-deep-learning-a3225e62bf22
+- https://convai.io/data/
+- https://fasttext.cc/docs/en/crawl-vectors.html
+- https://keras.io/api/layers/recurrent_layers/lstm/
+- https://medium.com/analytics-vidhya/https-medium-com-understanding-attention-mechanism-natural-language-processing-9744ab6aed6a
+- https://slds-lmu.github.io/seminar_nlp_ss20/attention-and-self-attention-for-nlp.html
 
 ## Muchas gracias!
 Sientete libre de contactarte por mail a francoa23@gmail.com por cualquier duda.
