@@ -164,6 +164,57 @@ Enlaces de utilidad:
 - https://medium.com/analytics-vidhya/https-medium-com-understanding-attention-mechanism-natural-language-processing-9744ab6aed6a
 - https://slds-lmu.github.io/seminar_nlp_ss20/attention-and-self-attention-for-nlp.html
 
+### Desafío 5:
+
+En este desafío, se implementa un modelo clasificador para preguntas utilizando un conjunto de datos de críticas de aplicaciones en Google, disponible en formato CSV. Este problema tiene como objetivo valorar-clasificar la app en cuestión, contando con 5 clases iniciales (valores entre 1 y 5).
+
+El dataset se proceso para tener solo 3 clases:
+- 0 si el valor <=2 
+- 1 si el valor = 3
+- 2 cualquier otra opción
+
+Preprocesamiento: 
+- El dataset se dividió en un 80% para entrenamiento y un 20% para validación.
+- El largo maximo de las sentencias de entrada = 140.
+- Se aplicó una función personalisada para convertir los datos al formato adecuado a BERT.
+
+Entrenamiento:
+- Batch de 32.
+- 5 epocas.
+
+Como modelo inicial, se empleó BERT (bert-base-uncased) de la biblioteca transformers de Hugging Face, utilizando BERT como una capa de embedding seguida de una capa feed-forward adicionales.
+
+Los resultados del entrenamiento se pueden ver en la siguiente figura:
+![image](https://github.com/user-attachments/assets/d8d4766b-bd72-47f5-9df4-7c9843ea66a4)
+![image](https://github.com/user-attachments/assets/20c94f8b-3d6f-42ff-8141-5bf542d3240d)
+
+Como segundo modelo, se empleó BERT (bert-base-uncased) aplicando fine-tuning, utilizando BERT como una capa de embedding seguida de una capa feed-forward adicionales.
+
+Los resultados del entrenamiento se pueden ver en la siguiente figura:
+![image](https://github.com/user-attachments/assets/2b60acb2-651c-4c42-90ca-585e64646213)
+![image](https://github.com/user-attachments/assets/22ff3727-a02c-4abb-963e-920b571d731c)
+
+Como tercer modelo se empleó BERT (bert-base-uncased), utilizando BERT como una capa de embedding seguida de un stack de feed-forward adicionales.
+
+Los resultados del entrenamiento se pueden ver en la siguiente figura:
+![image](https://github.com/user-attachments/assets/24ea8741-6afb-4e22-a237-4e8e76316d00)
+![image](https://github.com/user-attachments/assets/f15c72d3-e4ac-4dbf-a7d6-5d0f6701f704)
+
+Como cuarto modelo se empleó BERT (bert-base-uncased), utilizando BERT como una capa de embedding seguida de un stack de feed-forward adicionales, pero en este caso se usaron las 5 clases originales:
+![image](https://github.com/user-attachments/assets/bf0260b4-2e03-4272-b054-971883cd0db4)
+![image](https://github.com/user-attachments/assets/b693682c-5549-4189-8836-ddbba1fa591d)
+
+Conclusiones:
+- El fine-tuning mejoró mucho al modelo.
+- Agregar varias capas feed-forward no agrego cambios significativos.
+- Al usar el dataset con 5 clases parece haber un problema de entrenamiento.
+
+El código se encuentra en [Desafío 4](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_5.ipynb).
+
+Enlaces de utilidad:
+- https://huggingface.co/docs/transformers/es/index
+- https://huggingface.co/docs/transformers/model_doc/bert
+
 ## Muchas gracias!
 Sientete libre de contactarte por mail a francoa23@gmail.com por cualquier duda.
 Disfruta 😄!!
