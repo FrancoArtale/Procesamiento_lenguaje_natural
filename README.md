@@ -209,7 +209,7 @@ Conclusiones:
 - Agregar varias capas feed-forward no agrego cambios significativos.
 - Al usar el dataset con 5 clases parece haber un problema de entrenamiento.
 
-El código se encuentra en [Desafío 4](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_5.ipynb).
+El código se encuentra en [Desafío 5](https://github.com/FrancoArtale/Procesamiento_lenguaje_natural/blob/main/Desafio_5.ipynb).
 
 Enlaces de utilidad:
 - https://huggingface.co/docs/transformers/es/index
